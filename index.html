@@ -1,80 +1,89 @@
 <!DOCTYPE html>
  <html lang=""pt-br>
-  <head>
-    <link rel="shortcut icon" href="img/imag.jpg">
-    <title>Meu Portifólio</title>
-    <meta charset="UTF-8">
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
-</head>
+     <head>
+        <link rel="shortcut icon" href="img/imag.jpg">
+        <title>Meu Portfólio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#formacao">Formação</a>
-                </li>
-                <li>
-                    <a href="#portifolio">Portifólio</a>
+        <header class="header-manu">
+            <nav>
+                <ul class="lista-manu">
+                    <li>
+                         <a href="#formacao">Formação</a>
+                    </li>
+                    <li>
+                         <a href="#portfolio">Portfólio</a>
+                     </li>
+                     <li>
+                         <a href="#contato">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+       
+     </header>
 
-                </li>
-                <li>
-                    <a href="#contato">Contatos</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <article>
+     <main>
+         <section class="principal">
+            <!-- classe para "container" para ajudar da respassividade-->
+            <article class="subcontainer-principal container">
                 <div>
                     <img src="img/imag.jpg" alt="Perfil de Mulher negra">
                 </div>
                 <div>
-                    <h1>Graciele Correia</h1>
-                    <h2>Aluna Front-end</h2>
+                    <h1 class="nome-completo">Graciele Correia</h1>
+                    <h2 class="profissao">Desenvolvedora Front-end</h2>
                 </div>
                 <div>
-                    <h3>Aluna Full-stack em formação pela PretaLab</h3>
+                    Aluna Full-stack em formação pela PretaLab.
                 </div>
-
             </article>
         </section>
 
         <section>
-            <article>
+            <article class="container article-lista">
                 <div>
-                   <h3>Formação</h3> 
+                   <h3 class="topico-principal">Formação</h3> 
                 </div>
-                <div>
+                <div class="lista-item">
                     <ul>
                         <li>
-                            <p>Ciclo Formativo PretaLab</p>
+                            <p class="lista-titulo">Ciclo Formativo PretaLab</p>
                             <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi/</a>
-                            <p>Discrição do curso</p>
+                            <p class="lista-descricao">Discrição do curso</p>
                         </li>
-                        <li> <p>Ciclo Formativo PretaLab</p>
+                        <li>
+                            <p class="lista-titulo">Ciclo Formativo PretaLab</p>
                             <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi/</a>
-                            <p>Discrição do curso</p>
+                            <p class="lista-descricao">Discrição do curso</p>
                         </li>
                     </ul>
                 </div>
             </article>
         </section>
 
-        <section>
-            <article>
+        <section class="wrapper-portfolio">
+            <article class="container article-lista">
                 <div>
-                    <h3>Blog</h3>
+                    <h3 class="topico-principal">Blog</h3>
                 </div>
-                <div>
+                <div class="lista-item">
                     <ul>
                         <li>
-                            <p>Mulheres que fazem história</p>
-                            <p>Revelo</p>
+                            <p class="lista-titulo">Mulheres que fazem história</p>
+                            <p class="subtitulo-lista">Revelo</p>
                             <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local">27 desenvolvedoras brasileiras para se inspirar em 2022</a>
-                            <p>Descrição do Artigo</p>
+                            <p class="lista-descricao">Descrição do Artigo</p>
+                        </li>
+                        <li>
+                            <p class="lista-titulo">Mulheres que fazem história</p>
+                            <p class="subtitulo-lista">Revelo</p>
+                            <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local">27 desenvolvedoras brasileiras para se inspirar em 2022</a>
+                            <p class="lista-descricao">Descrição do Artigo</p>
                         </li>
                     </ul>
                 </div>
