@@ -1,3 +1,3 @@
-# Portifolio_Preta.Lab
-Portifólio - Primeiro projeto  HTML/CSS
+# Portfolio_Preta.Lab
+Portfólio - Primeiro projeto  HTML/CSS
 
