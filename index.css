@@ -141,6 +141,15 @@ li{
     align-items: center;
 }
 
+.estilo-icon {
+    front-size: 32px
+    margin-right: 10px
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
 .lista-footer li {
     color: #fff;
     font-weight: 700;
@@ -149,5 +158,7 @@ li{
     display: flex;
     align-items: center;
 }
+
+
 
 
